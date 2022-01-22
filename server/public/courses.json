@@ -1,0 +1,148 @@
+[{
+  "_id": {
+    "$oid": "61a7d0fda76a6cc64d7753ae"
+  },
+  "title": "Basics of JAVA",
+  "headline": "Learn Java Fast and Simple",
+  "description": "Java is the current heart of the programming world. This course lets you dive through the basics of the world's most fundamentally learnt and used language.",
+  "keyPoint": [
+    "Learn Fast",
+    "Beginner Level",
+    "20 Hours",
+    "Mobile Version Available",
+    "Certificate of Completion"
+  ],
+  "skill": [
+    "Java",
+    "Programming",
+    "Program Development",
+    "Application Development"
+  ],
+  "rating": 3.4,
+  "instructor": [
+    "James Doe",
+    "Cameroon Dan"
+  ]
+},{
+  "_id": {
+    "$oid": "61adbaf62263aba0c413a73c"
+  },
+  "title": "Advanced Machine Learning",
+  "headline": "Learn ML Approaches and Algorithms",
+  "description": "Machine Learning is the latest fad in the modern world. Learn the powerful concepts of supervised and unsupervised learning and make this world your own.",
+  "keyPoint": [
+    "Advanced Skills",
+    "Expert Level",
+    "60 Hours",
+    "Mobile Version Available",
+    "Certificate of Completion"
+  ],
+  "skill": [
+    "ML",
+    "Programming",
+    "Machine Learning",
+    "Neural Networks"
+  ],
+  "rating": 4.5,
+  "instructor": [
+    "Kruger Jean",
+    "Lisa Ann"
+  ]
+},{
+  "_id": {
+    "$oid": "61afc378cc90bddc1e3e2232"
+  },
+  "title": "Web Development Bootcamp",
+  "headline": "Become a full stack web developer. Build real projects.",
+  "description": "The only course you need to learn to code and become a full-stack web developer. This course will take you from beginner to mastery. You’ll learn to build fully-fledged websites and web apps for your business or startup.",
+  "keyPoint": [
+    "Craft a portfolio",
+    "55 hours",
+    "latest frameworks",
+    "certificate of completion"
+  ],
+  "skill": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Node",
+    "Express",
+    "React"
+  ],
+  "rating": 4.8,
+  "instructor": [
+    "Angela Yu",
+    "Adam Lee"
+  ]
+},{
+  "_id": {
+    "$oid": "61afc4fbcc90bddc1e3e2233"
+  },
+  "title": "Python Programming",
+  "headline": "Learn to Program and Analyze Data with Python. Develop programs to gather, clean, analyze, and visualize data.",
+  "description": "In the Capstone Project, you’ll use the technologies learned throughout the Specialization to design your own applications for data retrieval, processing, and visualization.",
+  "keyPoint": [
+    "Basics of python",
+    "Series of courses",
+    "Hands-on project",
+    "Earn a certificate"
+  ],
+  "skill": [
+    "JSON",
+    "Tuple",
+    "Python programming"
+  ],
+  "rating": 4.3,
+  "instructor": [
+    "Charles Russell",
+    "Donnie Yen"
+  ]
+},{
+  "_id": {
+    "$oid": "61afc608cc90bddc1e3e2234"
+  },
+  "title": "Programming and Data Structures",
+  "headline": "Learn basics of data structures using Java",
+  "description": "Understanding how programming works is essential in many technical disciplines such Information Technology, Software Engineering, Cybersecurity, and Computer Science",
+  "keyPoint": [
+    "Expert Instruction",
+    "Self-paced",
+    "9 months",
+    "6 Academic Certificatesn"
+  ],
+  "skill": [
+    "Sort and Search Algorithms",
+    "Linked Lists",
+    "Stack",
+    "Heap"
+  ],
+  "rating": 4.9,
+  "instructor": [
+    "Aspen Olmsted",
+    "Italy Tal"
+  ]
+},{
+  "_id": {
+    "$oid": "61afc721cc90bddc1e3e2235"
+  },
+  "title": "Software Development Fundamentals",
+  "headline": "Learn the fundamentals of object-oriented programming in Java, as well as best practices of modern software development.",
+  "description": "You will use modern development environments and tools for tasks like debugging and unit testing. We will introduce eclipse debugger and Junit",
+  "keyPoint": [
+    "Basics of Computer Programming",
+    "Expert Guide",
+    "Professional Certificate"
+  ],
+  "skill": [
+    "Core Java",
+    "Testing",
+    "Debugging",
+    "Collections",
+    "Object Oriented Design"
+  ],
+  "rating": 4.3,
+  "instructor": [
+    "Arvind Bhusnurmathl",
+    "Scarlett James"
+  ]
+}]

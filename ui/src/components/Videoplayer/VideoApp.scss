@@ -1,0 +1,155 @@
+// This holds the sass sytles for the video player
+body {
+    background: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  video {
+    width: 100%;
+  }
+  
+  .video-wrapper {
+    width: 100%;
+    max-width: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .video-wrapper:hover .controls {
+    transform: translateY(0%);
+  }
+  // This holds the sass sytles for the video player controls
+
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 30px;
+    padding: 14px;
+    width: 100%;
+    max-width: 500px;
+    flex-wrap: wrap;
+    // background: rgba(255, 255, 255, 0.25);
+    background-color: black;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    // border: 1px solid rgba(255, 255, 255, 0.18);
+    transform: translateY(150%);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  // This holds the sass sytles for the video player button actions
+  .actions button {
+    background-color: none;
+    border: none ;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+    width: 28px;
+  }
+  
+  .actions button i {
+    background-color: none;
+    color: red;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    // height: 20px;
+    // width: 20px;
+    
+  }
+  
+// .actions::-webkit-media-controls-panel {
+//   width: 40px;
+// }
+
+  input[type="range"] {
+    -webkit-appearance: none !important;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    height: 4px;
+    width: 350px;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    cursor: pointer;
+    width: 10px;
+    background-color: red;
+    height: 6px;
+  }
+  
+  input[type="range"]::-moz-range-progress {
+    background: red;
+    
+  }
+  
+  .velocity {
+    appearance: none;
+    background: none;
+    color: black;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+
+    &_color{
+    color: red !important;
+    background-color: black;
+    }
+  }
+  
+  .mute-btn {
+    background: black !important;
+    border: 1px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .mute-btn i {
+    background-color: none;
+    color: red;
+    font-size: 20px !important;
+  }
+
+  .bx {
+    background: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .bx i {
+    background-color: red;
+    color: red;
+    font-size: 20px;
+  }
+
+  .bx-play{
+    background-color: black;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .bx-pause{
+    background-color: black;
+    cursor: pointer;
+    outline: none;
+    // margin-right:10px ;
+  }

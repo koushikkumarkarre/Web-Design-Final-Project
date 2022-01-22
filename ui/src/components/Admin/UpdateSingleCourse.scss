@@ -1,0 +1,184 @@
+// @import '../scss/main.scss';
+
+// .section-CourseItem-container {
+//     padding: 5rem 0;
+//     background-image: linear-gradient(to right bottom, rgba(31, 31, 131, 0.8), rgba(86, 181, 248, 0.8));
+//     // background-image: linear-gradient(to right bottom,rgb(31, 31, 131 ), #56B5F8);
+//     // background-color: rgb(153, 7, 7);
+// }
+
+// .section-CourseItem-box {
+//     padding: 2rem;
+//     margin: auto;
+//     max-width: 55rem;
+//     background-color: white;
+//     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+//     border-radius: 2rem;
+
+// }
+
+// .section-CourseItem-image {
+//     // background-image: url('../images/nc8.jpg');
+//     // background-size: auto;
+//     background-repeat: no-repeat;
+//     height: 25rem;
+//     background-position: top;
+//     position: relative;
+//     transform: scale(1);
+//     border-radius: 2rem;
+
+//     &:hover+&-caption {
+//         opacity: 1;
+//         transition: all 0.5s;
+
+//         transform: translate(-50%, -200%);
+//     }
+
+//     &:hover {
+//         transition: all 0.5s;
+//         transform: scale(0.9);
+//         filter: blur(2px) brightness(80%);
+//     }
+
+
+// }
+
+// .section-CourseItem-image-caption {
+//     font-size: 1.7rem;
+//     font-weight: 700;
+//     text-align: center;
+//     text-transform: uppercase;
+//     display: inline-block;
+//     color: white;
+//     letter-spacing: 5px;
+
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, 300%);
+//     opacity: 0;
+
+// }
+
+// .overlay {
+//     margin-bottom: 4rem;
+// }
+
+// .section-CourseItem-heading {
+//     text-align: center;
+// }
+
+
+// .heading-secondary-CourseItem {
+//     font-size: 1.7rem;
+//     font-weight: 700;
+//     text-align: center;
+//     text-transform: uppercase;
+//     display: inline-block;
+//     background-image: linear-gradient(to right, $secondary-color, $primary-color);
+//     -webkit-background-clip: text;
+//     color: transparent;
+//     letter-spacing: 5px;
+//     white-space: nowrap;
+//     margin-bottom: 2rem;
+//     transition: all 0.2s;
+
+//     &:hover {
+//         transform: skewY(2deg) skewX(10deg) scale(1.1);
+//         text-shadow: .5rem 1rem 2rem rgba(black, 0.2);
+//     }
+// }
+
+// .flex-box1 {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .btn-text-green {
+//     margin-left: 3rem;
+//     margin-top: 1rem;
+//     border: none;
+//     padding: 0.7rem 2rem;
+//     background-color: transparent;
+//     // margin-right: 1rem;
+//     font-size: 1rem;
+//     outline: none;
+//     background-color: #F3F4F4;
+//     border: 2px solid black;
+//     transition: all 0.2s;
+//     border-radius: 20px;
+//     font-size: 1.1rem;
+//     letter-spacing: 3px;
+
+//     &:hover {
+//         color: white;
+//         background-color: rgb(153, 7, 7);
+//         box-shadow: 0 1rem 2rem rgba(#0000, .15);
+//         transform: translateY(-5px);
+//         cursor: pointer;
+//     }
+
+
+// }
+
+// .btn-text-red {
+//     @extend .btn-text-green;
+//     margin-right: 0px;
+//     outline: none;
+// }
+
+// .btn-text-add {
+//     @extend .btn-text-green;
+//     margin-left: 39rem;
+//     outline: none;
+// }
+
+// .section-CourseItem-editableOptions {
+//     margin-top: -1rem;
+// }
+
+// .editable-AddCourse {
+//     // display: none;
+//     margin: auto;
+//     margin-top: 2rem;
+//     padding-top: 10px;
+//     color: black;
+//     width: 60%;
+//     // background-color: red;
+//     height: 60%;
+//     text-align: center;
+//     position: relative;
+
+
+
+//     input {
+//         width: 100%;
+//         height: 20%;
+//         color: black;
+//         margin-bottom: 1rem;
+//         padding-bottom: 10px;
+//         padding-left: 10px;
+//         border: none;
+//         border-bottom: 2px solid rgba($primary-color, 0.8);
+//         outline: none;
+
+
+//     }
+
+// }
+
+// .btn-text-blue {
+//     @extend .btn-text-green;
+
+//     margin-left: -10px;
+
+// }
+
+// .para {
+//     font-size: 1.1rem;
+//     letter-spacing: 3px;
+//     font-weight: 700;
+//     background-image: linear-gradient(to right, $secondary-color, $primary-color);
+//     -webkit-background-clip: text;
+//     color: transparent;
+// }

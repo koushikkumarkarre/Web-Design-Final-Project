@@ -1,0 +1,122 @@
+@import '../scss/main.scss';
+
+//This code is to styles the login component to sign in to the application
+.section-login{
+    padding: 5rem 0;
+    // margin-top: -6rem;
+    // padding-top: 10rem;
+    // background-image: linear-gradient(to right bottom,rgba($primary-color, 0.8), rgba($secondary-color, 0.8));
+    background-color: #69a5d6;
+    width: 100%;
+}
+
+.login{
+    background-image: linear-gradient(-68deg, rgba($primary-color, 0.8), rgba($secondary-color, 0.8) 50%, transparent 50%), url(../images/landing.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin-left: 8rem;
+    height: 40rem;
+    border-radius: 100px;
+
+    &_form{
+        width: 90%;
+        padding: 6rem;
+        text-align: center;
+        padding-left: 55%;
+    }
+
+    input:focus::placeholder {
+        color: transparent;
+    }
+}
+
+.signin_form{
+    
+    &_group:not(:last-child){
+        margin-bottom: 2rem;
+    }
+
+    &_input{
+        font-size: 1rem;
+        padding:1rem 1.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 10px;
+        background-color: rgba(white, 0.8);
+        border:none;
+        border-bottom: 3px solid transparent;
+        width: 30%;
+        display: block;
+
+        &_error {
+            background-color: rgb(235, 112, 112);
+            color: white;
+            border-radius: 10px;
+            border: 1px solid red;
+            width: 30%;
+            margin-left: 3%;
+        }
+
+        &:focus{
+            outline: none;
+            box-shadow: 0 1rem 2rem rgba(black, 0.1);
+            border-bottom: 3px solid $primary-color ;
+        }
+    }
+
+    &_label{
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-left: -70rem;
+        margin-top: .5rem;
+        display: block;
+        transition: all 0.2s;
+        color: white;
+    }
+
+    &_input:placeholder-shown + &_label{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.signin-heading-secondary-login{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    // background-image: linear-gradient(to right, $secondary-color, $primary-color);
+    // -webkit-background-clip: text;
+    // color: transparent;
+    color: white;
+    width: 30%;
+    letter-spacing: 5px;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+    margin-left: -55rem;
+}
+
+.signin-btn-login{
+
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin-left: -55rem;
+    margin-top: -1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    &:link,
+    &:visited {
+        color: $primary-color;
+        display: inline-block;
+        transition: all .5s;
+    }
+
+    &:hover{
+        // background-color: $primary-color;
+        background-color: rgb(153,7,7);
+        color: white;
+        box-shadow: 0 1rem 2rem rgba(#0000, .15);
+        cursor: pointer;
+    }
+}

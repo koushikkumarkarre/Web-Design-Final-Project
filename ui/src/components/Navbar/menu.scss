@@ -1,0 +1,107 @@
+// .nav-link{
+//     background-color: black;
+//     padding:10%;
+
+// }
+
+// .nav-items {
+//     padding: 10%;
+//     background-color: rgb(221, 63, 63);
+//     color: rgb(8, 8, 8);
+//     display: flex;
+//     position: fixed;
+//     margin: 0%;
+//     list-style-type: none;
+//     z-index: 1;
+// }
+
+// .nav {
+//     background-image: linear-gradient(
+//     to right bottom,
+//     rgba(31, 31, 131, 0.8),
+//     rgba(86, 181, 248, 0.8)
+//   );
+//   overflow: hidden;
+//   margin-bottom: 10px;
+//   z-index: 1;
+// }
+// This holds the sass code to style nav bar and its image
+a {
+    text-decoration: none;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+//sign up btn color change and padding
+.btn-signup{
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(153,7,7);
+    box-shadow: 0%;
+    border: 1px solid black;
+}
+
+//sign up btn hover change and pointer
+.btn-signup:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+//sign up image size
+.nuimage{
+    padding-left: 0%;
+    margin-left: -10rem;
+    height: 69px;
+    cursor: pointer;
+}
+
+.flex{
+    font-weight: bold;
+    color: white !important; 
+    font-size: large;
+    margin-right: 5rem;
+    margin-left: -7rem;
+}
+
+
+.fav{
+    margin-top: -1rem;
+    list-style-type: none;
+    height: 20px;
+}
+    
+.nav{
+    padding-top: 11px;
+    padding-left: 10%;
+    color: white;
+    background-color: black;
+    z-index: 3;
+    position: fixed;
+    height:7%;
+    width: 100%;
+    margin-top: 0%;
+    // overflow-x: hidden !important ;
+    
+    &-item{
+        padding-left: 2%;
+        margin-top: -2rem;        
+        display:inline;
+        color: red; 
+        &-link {
+            // list-style-type:none;
+            display: inline;
+            color: red; 
+        }
+    }
+}
+
+.nav-link {
+    color: white;
+}
+
+.signIn {
+    color: white;
+}

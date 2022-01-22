@@ -1,0 +1,189 @@
+@import '../scss/main.scss';
+
+// Add Course Item Container
+.add-CourseItem-container {
+    padding: 5rem 0;
+    padding-top: 120px;
+    // background-image: linear-gradient(to right bottom, rgba(31, 31, 131, 0.8), rgba(86, 181, 248, 0.8));
+    background-color: rgb(153,7,7);
+    // background-image: linear-gradient(to right bottom,rgb(31, 31, 131 ), #56B5F8);
+}
+
+// Styling for Item Box
+.add-CourseItem-box {
+    padding: 2rem;
+    margin: auto;
+    max-width: 55rem;
+    background-color: rgb(255, 255, 255);;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 2rem;
+}
+
+.overlay {
+    margin-bottom: 4rem;
+}
+
+// Styling for Flex Box
+.add-flex-box1 {
+    padding-top: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+// Styling for Button
+.btn-text-green {
+    margin-left: 3rem;
+    margin-top: 1rem;
+    border: none;
+    padding: 0.7rem 2rem;
+    background-color: transparent;
+    // margin-right: 1rem;
+    font-size: 1rem;
+    outline: none;
+    background-color: #F3F4F4;
+    border: 2px solid #56B5F8;
+    transition: all 0.2s;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+
+    &:hover {
+        color: white;
+        background-color: #56B5F8;
+        box-shadow: 0 1rem 2rem rgba(#0000, .15);
+        transform: translateY(-5px);
+    }
+}
+
+// Button Styling
+.btn-text-red {
+    @extend .btn-text-green;
+    margin-right: 0px;
+    outline: none;
+}
+
+// Button Styling
+.btn-text-add {
+    @extend .btn-text-green;
+    margin-left: 39rem;
+    outline: none;
+}
+
+// Enabling Editing
+.section-CourseItem-editableOptions {
+    margin-top: -1rem;
+}
+
+// Enabling Form elements
+.add-editable-AddCourse {
+    // display: none;
+    margin: auto;
+    width: 60%;
+    // background-color: red;
+    height: 60%;
+    text-align: center;
+    position: relative;
+}
+
+// Styling for Input
+.add-Input {
+    width: 100%;
+    height: 20%;
+    color: black;
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 2px solid rgba(153,7,7, 0.8);
+    outline: none;
+    background: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(114, 4, 4);
+}
+
+// Styling for Uploader
+.add-uploader {
+    display: flex;
+}
+
+.btn-text-blue {
+    @extend .btn-text-green;
+    margin-left: -10px;
+}
+
+.add-button {
+    color: white;
+    background-color: rgb(153,7,7);
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    border-bottom: 2px solid rgb(65, 4, 4);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.para {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, $secondary-color, $primary-color);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.addLesson{
+    width:100px;
+    height:100px;
+    background-color: red;
+}
+
+.add-content-name {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(114, 4, 4);
+    font-size: large;
+    font-weight: bold;
+}
+
+.add-heading {
+    color: rgb(114, 4, 4);
+    border-bottom: black;
+    padding-bottom: 15px;
+}
+
+.add-uploader {
+    input {
+        padding: 0;
+        width: 230px;
+        height: 25px;
+        opacity: 1;
+        border: 2px solid #333;
+        display:inline-block;
+        margin-right:10px;
+        margin-left: 50px;
+    }
+  
+    button {
+        color: #fff;
+        background: #333;
+        border: none;
+        width: 20%;
+        height: 30px;
+        margin-left: 20px;
+        border-radius: 4px;
+        border-bottom: 4px solid black;
+        transition: all .2s ease;
+        outline: none;
+        display:inline-block;
+    }
+  
+    button:hover{
+        background: #a71a26;
+        color: white;
+    }
+  
+    button:active{
+        border:0;
+    }
+}

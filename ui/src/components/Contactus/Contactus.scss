@@ -1,0 +1,197 @@
+// @import "../scss/main.scss";
+
+// .section-contacus {
+//   // padding: 10rem 0;
+//   margin-top: -5rem;
+//   padding-top: 5rem;
+//   margin-left: -5rem;
+//   background-color: rgb(153, 7, 7);
+//   width: 110%;
+//   height: 60rem;
+// }
+
+// .contacus {
+//   // background-image: linear-gradient(
+//   //     105deg,
+//   //     rgba($primary-color, 0.8),
+//   //     rgba($secondary-color, 0.8) 50%,
+//   //   );
+//     // url(../images/Signup-img.jpg);
+//     background-color: black;
+//   background-size: 100%;
+//   background-repeat: no-repeat;
+//   margin-left: 10rem;
+//   height: 50rem;
+//   width: 80%;
+//   font-weight: 10px;
+
+//   &_form {
+//     width: 60%;
+//     padding: 10;
+//   }
+// }
+
+// .form {
+//   &_group:not(:last-child) {
+//     margin-bottom: 1rem;
+//   }
+
+//   &_input {
+//     font-size: 1rem;
+//     padding: 1rem 1.5rem;
+//     border-radius: 15px;
+//     background-color: rgba(white, 0.8);
+//     border: none;
+//     border-bottom: 3px solid transparent;
+//     width: 60%;
+//     height: 20%;
+//     display: block;
+//     margin-left: 30px;
+
+
+//     &:focus {
+//       outline: none;
+//       box-shadow: 0 1rem 2rem rgba(black, 0.1);
+//       border-bottom: 4px solid rgb(153, 7, 7);
+//     }
+//   }
+
+//   &_label {
+//     font-size: 0.8rem;
+//     font-weight: 600;
+//     margin-left: 1.5rem;
+//     margin-top: 0.5rem;
+//     display: block;
+//     transition: all 0.2s;
+//     color: white;
+//   }
+
+//   &_input:placeholder-shown + &_label {
+//     opacity: 0;
+//     visibility: hidden;
+//   }
+// }
+
+// .heading-secondary-login {
+//   font-size: 2rem;
+//   text-align: center;
+//   font-weight: 500;
+//   padding-left: 5%;
+//   text-decoration: solid;
+//   text-transform: none !important;
+//   display: inline-block;
+//   // background-image: linear-gradient(to right, $secondary-color, $primary-color);
+//   // -webkit-background-clip: text;
+//   // color: transparent;
+//   color: white;
+//   letter-spacing: 5px;
+//   white-space: nowrap;
+//   margin-bottom: 1rem;
+// }
+
+// .btn-submit {
+//   border: none;
+//   padding: 1rem 2rem;
+//   border-radius: 1rem;
+//   margin-left: 50px;
+//   margin-top: -1rem;
+//   background-color: rgb(153, 7, 7);
+//   color: white;
+//   &:link,
+//   &:visited {
+//     color: rgba($primary-color, 0.8);
+//     display: inline-block;
+//     transition: all 0.5s;
+//   }
+
+//   &:hover {
+//     background-color: rgb(53, 7, 7);
+//     color: white;
+//     box-shadow: 0 1rem 2rem rgba(#0000, 0.15);
+//     cursor: pointer;
+//   }
+// }
+
+//Contact Us Styling 
+.contactUs_container{
+  padding-top: 10%;
+  background-color: rgb(153, 7, 7);
+  height: 100vh;
+}
+
+.contactUS_heading{
+  color: white;
+  // font-family: 'Times New Roman', Times, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 10px;
+
+}
+
+.contactUs_subContainer{
+  background-color: #333;
+  max-width: 60%;
+  margin-left: 19%;
+  border-radius: 15px;
+  height: 80%;
+}
+
+
+.contactUs_form{
+  max-width: 70%;
+  margin-left: 15%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.cu_lbl{
+  color: white;
+}
+
+
+
+
+
+.contactUs_formInput{
+  font-size: 1rem;
+    border-radius: 15px;
+    // background-color: rgba(white, 0.8);
+    background-color: white;
+    border: none;
+    border-bottom: 3px solid transparent;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    &:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(black, 0.1);
+      border-bottom: 4px solid rgb(153, 7, 7);
+
+    }
+}
+
+.contactUs_formInput:focus + .cu_lbl{
+  color: white;
+}
+
+
+
+
+.submitBtn{
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-top:3%;
+  background-color: rgb(153, 7, 7);
+  color: white;
+  cursor: pointer;
+  &:hover{
+      background-color: red;
+  }
+}
+
+
+.contactUS_msg{
+  margin-left: -10%;
+
+}

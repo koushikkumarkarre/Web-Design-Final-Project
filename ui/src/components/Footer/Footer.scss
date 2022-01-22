@@ -1,0 +1,95 @@
+@import "../scss/main.scss";
+@import "../scss/config.scss";
+@import "../scss/mixins";
+
+//Footer styling
+.footer {
+  // background-image: linear-gradient(to right bottom, rgba(31,31,131,0.8), rgba(86,181,248,0.8));
+  background: linear-gradient(90deg, rgba(0, 31, 36, 1) 0%, rgba(9, 48, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  // padding: 10rem 0;
+  height: 100%;
+  font-size: 1.2rem;
+  color: $color-white;
+  @include respond(tab-port) {
+    padding: 8rem 0;
+    // text-align: right;
+  }
+//Navigation styling
+  &__navigation {
+    // border-top: 1px solid white;
+    padding-top: 2rem;
+    display: inline-block;
+
+    @include respond(tab-port) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      color: $color-grey-lt-1;
+      background-color: $color-grey-dark-3;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      transition: all 0.2s;
+    }
+
+    &:hover,
+    &:active {
+      color: $primary-color;
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+      transform: rotate(5deg) scale(1.3);
+    }
+  }
+
+  &__copyright {
+    border-top: 1px solid $color-white;
+    // padding-top: 2rem;
+    font-family: sans-serif;
+    font-size: small;
+    margin-top: 5rem;
+    width: 80%;
+    text-align: left;
+    margin-left: 1%;
+
+    @include respond(tab-port) {
+      width: 100%;
+      float: none;
+    }
+  }
+
+  &_links{
+    text-align: center;
+    // margin-right: 12%;
+  }
+
+  .col-1-of-2{
+    text-align: left;
+  }
+  &__contact_btn {
+    background-color: rgb(153,7,7);
+    color: white;
+    padding:5px;
+    border-radius:10px;
+    border:0;
+
+    &:hover{
+    background-color: red;
+    }
+  }
+}
